@@ -1,27 +1,35 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>EricWhale</title>
+        <title>Eric Whale</title>
       </Head>
-      <div>
-        <Link href="">latest blog post 1</Link>{" "}
-        <Link href="">latest blog post 2</Link>
-        <br />
-        <Link href="">latest project 1 (github link)</Link>{" "}
-        <Link href="">latest project 2 (github link)</Link>
-        <br />
-        <Link href="">latest YouTube Video</Link>
+      <div className="mx-56 my-4 grid grid-cols-3 content-center place-content-around gap-40">
+        <Link href="#">
+          <div className={styles.showBoxContainer}>
+            <div></div>
+            <div>Check out my blog!(latest post)</div>
+          </div>
+        </Link>
+        <Link href="#">
+          <div className={styles.showBoxContainer}>
+            <div></div>
+            <div>Check my latest Project!</div>
+          </div>
+        </Link>
+        <Link href="#">
+          <div className={styles.showBoxContainer}>
+            <div></div>
+            <div>Check my YouTube Channel</div>
+          </div>
+        </Link>
       </div>
-      <br />
-
-      {/* [Express myself (short description of me using */}
-      {/* img/gif/videoClip/background/character...) on this page] */}
     </>
   );
 }
+
+//TODO: Change the architecture of 3 boxes and margin/padding

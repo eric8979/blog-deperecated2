@@ -8,7 +8,7 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article>
-        <h1>{postData.title}</h1>
+        <h1 className="text-4xl">{postData.title}</h1>
         <div>
           <Date dateString={postData.date} />
         </div>

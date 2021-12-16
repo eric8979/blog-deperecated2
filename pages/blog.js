@@ -6,7 +6,7 @@ const Blog = ({ allPostsData }) => {
   return (
     <>
       <Head>
-        <title>EricWhale-blog</title>
+        <title>Eric Whale-blog</title>
       </Head>
       <div>
         <ul>
