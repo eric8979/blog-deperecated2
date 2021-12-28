@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/article.module.css";
 
 export default function Post({ postData }) {
-  console.log(postData.date);
+  console.log(postData.images);
   return (
     <>
       <Head>
