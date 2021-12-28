@@ -1,0 +1,28 @@
+.footer {
+  margin: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: solid #888 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  align-items: center;
+  font-size: 1.2rem;
+  border-right: solid 3px #555;
+}
+.block a {
+  color: #000;
+  text-decoration: none;
+}
+.lastblock {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+}

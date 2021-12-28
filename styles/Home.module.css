@@ -1,4 +1,20 @@
-.showBoxContainer {
-  border: solid 4px black;
-  border-radius: 10px;
+.postItem {
+  font-size: 1.5rem;
+  border-bottom: #777 solid 2px;
+  margin: 0.5rem;
+  margin-right: 2rem;
+  padding-bottom: 0.3rem;
+}
+
+.postDate {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .postItem {
+    font-size: 1.3rem;
+  }
+  .postDate {
+    font-size: 0.9rem;
+  }
 }

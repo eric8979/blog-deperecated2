@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title,
+.navbar,
+.links {
+  margin: 0;
+}
+
+/* title */
+.title {
+  font-family: "Fredericka the Great";
+  font-size: 4rem;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+/* navbar (blog, about) */
+.navbar h2 {
+  display: inline;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #444;
+  margin: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.navbar h2:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* links (github, linkedin) */
+.links li {
+  display: inline;
+  margin: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  opacity: 0.8;
+}
+
+.links li:hover {
+  opacity: 1;
+  cursor: pointer;
+}

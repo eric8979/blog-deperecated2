@@ -1,5 +1,6 @@
 import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
+import styles from "../../styles/article.module.css";
 
 export default function Post({ postData }) {
   return (
@@ -7,12 +8,13 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article className={styles.articleBox}>
         <h1 className="text-4xl">{postData.title}</h1>
-        <div>
-          <Date dateString={postData.date} />
-        </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <Date dateString={postData.dateString} />
+        <div
+          className={styles.html}
+          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+        />
       </article>
     </>
   );

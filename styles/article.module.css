@@ -1,0 +1,16 @@
+.articleBox {
+  margin: 0.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 1.3rem;
+}
+
+.articleBox h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.html {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

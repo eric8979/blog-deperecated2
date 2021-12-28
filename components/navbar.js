@@ -2,33 +2,37 @@ import Link from "next/link";
 import Image from "next/image";
 import githubImg from "../public/GitHub-Mark-120px-plus.png";
 import linkedinImg from "../public/LI-In-Bug.png";
+import Head from "next/head";
+import styles from "../styles/navbar.module.css";
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-nowrap justify-between justify-center items-center w-full h-28 px-6">
+      <Head>
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Nothing+You+Could+Do&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+        </style>
+      </Head>
+      <div className={styles.container}>
         <Link href="/">
-          <h1 className="text-7xl cursor-pointer">LOGO</h1>
+          <h1 className={styles.title}>Eric Whale</h1>
         </Link>
-        <nav>
-          <Link href="/blog">
-            <h2 className="inline text-3xl p-1.5 mx-2.5 cursor-pointer text-slate-600">
-              blog
-            </h2>
+        <nav className={styles.navbar}>
+          <Link href="/">
+            <h2>blog</h2>
           </Link>
           <Link href="/about">
-            <h2 className="inline text-3xl p-1.5 mx-2.5 cursor-pointer text-slate-600">
-              about
-            </h2>
+            <h2>about</h2>
           </Link>
         </nav>
-        <ul className="flex justify-center">
-          <li className="m-2">
+        <ul className={styles.links}>
+          <li>
             <a href="https://github.com/eric8979">
               <Image src={githubImg} alt={"GitHub"} height="54" width="54" />
             </a>
           </li>
-          <li className="m-2">
+          <li>
             <a href="https://www.linkedin.com/in/eric-whale-4853301ab/">
               <Image
                 src={linkedinImg}
@@ -40,7 +44,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <hr className="border-neutral-200 border-2" />
     </>
   );
 };
