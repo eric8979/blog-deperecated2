@@ -3,14 +3,15 @@ import Head from "next/head";
 import styles from "../../styles/article.module.css";
 
 export default function Post({ postData }) {
+  console.log(postData.date);
   return (
     <>
       <Head>
         <title>{postData.title}</title>
       </Head>
       <article className={styles.articleBox}>
-        <h1 className="text-4xl">{postData.title}</h1>
-        <Date dateString={postData.dateString} />
+        <h1>{postData.title}</h1>
+        <small className={styles.date}>{postData.date}</small>
         <div
           className={styles.html}
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
