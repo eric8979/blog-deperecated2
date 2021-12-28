@@ -5,7 +5,7 @@ date: "13 December 2021 18:15:00 GMT+09:00"
 
 ![test img](https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80)
 
-# Idea
+## Idea
 
 While learning Algorithms and Data Structures I had to use `None`. While using it I found something weird so I thought it would be a helpful to learn what the keyword is more deeply.
 
@@ -33,7 +33,7 @@ print(not None)
 
 `not`: The operand can be a Boolean expression or **any Python object**.
 
-# Conclusion
+## Conclusion
 
 - It turns out that `not` works similar as `bool()` method which returns `False` if operand is false or **omitted** like empty string or empty list.
   Since `None` is an empty(omitted) state, `not None` returns `True`.

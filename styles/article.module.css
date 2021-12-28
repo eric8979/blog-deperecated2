@@ -1,18 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
 .articleBox {
   margin: 0.5rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 3rem;
   margin-right: 3rem;
   font-size: 1.3rem;
 }
 
 .articleBox h1 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
+  text-align: center;
   margin: 0;
+  margin-bottom: 0.2rem;
+}
+.articleBox small {
+  text-align: center;
 }
 
 .html {
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   margin-bottom: 1rem;
+}
+
+.html h2 {
+  text-decoration: underline;
 }
 
 .html img {

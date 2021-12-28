@@ -9,14 +9,16 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className={styles.articleBox}>
-        <h1>{postData.title}</h1>
-        <small className={styles.date}>{postData.date}</small>
-        <div
-          className={styles.html}
-          dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
-        />
-      </article>
+      <div className={styles.container}>
+        <article className={styles.articleBox}>
+          <h1>{postData.title}</h1>
+          <small className={styles.date}>{postData.date}</small>
+          <div
+            className={styles.html}
+            dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
+          />
+        </article>
+      </div>
     </>
   );
 }
