@@ -50,3 +50,23 @@
   opacity: 1;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.1rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .navbar h2 {
+    font-size: 1.4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .links {
+    display: none;
+  }
+}

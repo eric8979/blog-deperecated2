@@ -6,6 +6,12 @@
   display: flex;
   justify-content: center;
 }
+.box,
+.box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 .block {
   display: flex;
@@ -23,6 +29,33 @@
 .lastblock {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  text-align: center;
-  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    margin: 0.5rem;
+    margin-top: 1.1rem;
+    padding-top: 1rem;
+    flex-direction: column;
+  }
+
+  .block {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .lastblock {
+    display: block;
+    padding-left: 0.3rem;
+    padding-right: 0.2rem;
+  }
+  .box {
+    margin-bottom: 0.3rem;
+  }
+  .box2 {
+    margin-top: 0.3rem;
+  }
+  .lastblock img {
+    height: 1.3rem;
+  }
 }

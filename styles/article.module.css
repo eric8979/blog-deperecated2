@@ -4,6 +4,7 @@
 }
 .articleBox {
   margin: 0.5rem;
+  margin-top: 0;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -33,7 +34,27 @@
 }
 
 .html img {
-  width: 100%;
+  max-width: 100%;
   max-height: 700px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .articleBox {
+    width: 93%;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: solid #777 2px;
+    font-size: 1rem;
+  }
+  .articleBox h1 {
+    font-size: 2.1rem;
+  }
+  .html {
+    margin-bottom: 0;
+  }
+  .html img {
+    border-radius: 8px;
+  }
 }

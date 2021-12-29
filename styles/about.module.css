@@ -32,3 +32,21 @@
   text-decoration: underline;
   margin-bottom: 0.6rem;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .date {
+    font-size: 0.9rem;
+  }
+  .subtitle {
+    margin-top: 0.7rem;
+    font-size: 1.3rem;
+  }
+}

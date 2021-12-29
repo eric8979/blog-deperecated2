@@ -10,11 +10,11 @@
   font-size: 1.1rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .postItem {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .postDate {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
