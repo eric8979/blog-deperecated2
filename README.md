@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Purpose: Post what I've learned and done.
+Purpose: Post what I've learned related to coding/programming.
 
 1. Reinforce learning
 2. Build up an online presence
