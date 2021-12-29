@@ -10,7 +10,7 @@ const About = () => {
       </Head>
       <div className={styles.container}>
         <h2 className={styles.title}>
-          🐋 Hi! I'm Eric Whale. Welcome to my blog!
+          🐋 Hi! I&apos;m Eric Whale. Welcome to my blog!
         </h2>
         <small className={styles.date}>- Updated on 28/12/2021</small>
 

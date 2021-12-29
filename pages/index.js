@@ -7,7 +7,7 @@ const Home = ({ allPostsData }) => {
   return (
     <div>
       <Head>
-        <title>🐋 Eric Whale's blog</title>
+        <title>🐋 Eric Whale&apos;s blog</title>
       </Head>
       <div>
         <ol>
