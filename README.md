@@ -1,4 +1,4 @@
-# Portfolio Website repo
+# Eric Whale's blog repo
 
 🐋 Visit and check out my blog and find out about me!
 
