@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { getSortedPostsData } from "../lib/posts";
-import styles from "../styles/home.module.css";
+import styles from "../styles/Home.module.css";
 
 const Home = ({ allPostsData }) => {
   return (
