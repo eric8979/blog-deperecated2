@@ -4,7 +4,7 @@ import styles from "../styles/about.module.css";
 
 const About = () => {
   return (
-    <>
+    <div>
       <Head>
         <title>🐋 about</title>
       </Head>
@@ -82,7 +82,7 @@ const About = () => {
         {/* TODO: Add youtube channel link */}
         {/* TODO: Projects - github link */}
       </div>
-    </>
+    </div>
   );
 };
 

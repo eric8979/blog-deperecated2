@@ -7,7 +7,7 @@ import styles from "../styles/navbar.module.css";
 
 const Navbar = () => {
   return (
-    <>
+    <div>
       <Head>
         <style>
           @import
@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 

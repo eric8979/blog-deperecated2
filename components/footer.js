@@ -3,7 +3,7 @@ import styles from "../styles/footer.module.css";
 
 const Footer = () => {
   return (
-    <>
+    <div>
       <div className={styles.footer}>
         <div className={styles.box}>
           <div className={styles.block}>© 2021, Eric Whale</div>
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

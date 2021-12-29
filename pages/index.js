@@ -5,7 +5,7 @@ import styles from "../styles/home.module.css";
 
 const Home = ({ allPostsData }) => {
   return (
-    <>
+    <div>
       <Head>
         <title>🐋 Eric Whale's blog</title>
       </Head>
@@ -22,7 +22,7 @@ const Home = ({ allPostsData }) => {
           ))}
         </ol>
       </div>
-    </>
+    </div>
   );
 };
 
