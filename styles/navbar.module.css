@@ -22,21 +22,6 @@
   cursor: pointer;
 }
 
-/* navbar (blog, about) */
-.navbar h2 {
-  display: inline;
-  font-size: 2rem;
-  font-weight: 400;
-  color: #444;
-  margin: 0.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.navbar h2:hover {
-  color: #000;
-  cursor: pointer;
-}
-
 /* links (github, linkedin) */
 .links li {
   display: inline;
@@ -59,14 +44,13 @@
     padding-bottom: 0.1rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
-  .navbar h2 {
-    font-size: 1.4rem;
-    margin-left: 0.5rem;
+  .links li {
+    margin: 0;
     margin-right: 0.5rem;
   }
-  .links {
+  .links .linkedinLink {
     display: none;
   }
 }

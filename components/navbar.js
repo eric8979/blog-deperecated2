@@ -18,21 +18,13 @@ const Navbar = () => {
         <Link href="/">
           <h1 className={styles.title}>Eric Whale</h1>
         </Link>
-        <nav className={styles.navbar}>
-          <Link href="/">
-            <h2>blog</h2>
-          </Link>
-          <Link href="/about">
-            <h2>about</h2>
-          </Link>
-        </nav>
         <ul className={styles.links}>
-          <li>
+          <li className={styles.githubLink}>
             <a href="https://github.com/eric8979">
               <Image src={githubImg} alt={"GitHub"} height="54" width="54" />
             </a>
           </li>
-          <li>
+          <li className={styles.linkedinLink}>
             <a href="https://www.linkedin.com/in/eric-whale-4853301ab/">
               <Image
                 src={linkedinImg}
